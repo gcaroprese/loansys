@@ -1,0 +1,263 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-09 09:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: GABRIEL CAROPRESE <GABRIEL.CAROPRESE@GMAIL.COM>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: iNFORKET https://inforket.com/"
+
+#: loansys-form.php:77
+msgid "Please check the captcha form."
+msgstr ""
+
+#: loansys-form.php:172
+msgid "Thank you for your inquiry. Your request will be processed immediately."
+msgstr ""
+
+#: loansys-form.php:225
+msgid "Amount of Request"
+msgstr ""
+
+#: loansys-form.php:227
+msgid "Select An Amount"
+msgstr ""
+
+#: loansys-form.php:235
+msgid "Your Information"
+msgstr ""
+
+#: loansys-form.php:237
+msgid "First Name"
+msgstr ""
+
+#: loansys-form.php:240
+msgid "Last Name"
+msgstr ""
+
+#: loansys-form.php:243
+msgid "Date of Birth"
+msgstr ""
+
+#: loansys-form.php:246
+msgid "Select Preferred Language"
+msgstr ""
+
+#: loansys-form.php:247
+msgid "English"
+msgstr ""
+
+#: loansys-form.php:248
+msgid "French"
+msgstr ""
+
+#: loansys-form.php:251
+msgid "Address 1"
+msgstr ""
+
+#: loansys-form.php:254
+msgid "Address 2"
+msgstr ""
+
+#: loansys-form.php:257
+msgid "Postal Code"
+msgstr ""
+
+#: loansys-form.php:260
+msgid "Province"
+msgstr ""
+
+#: loansys-form.php:263
+msgid "City"
+msgstr ""
+
+#: loansys-form.php:266
+msgid "Country"
+msgstr ""
+
+#: loansys-form.php:269
+msgid "Phone"
+msgstr ""
+
+#: loansys-form.php:272
+msgid "Mobile Phone"
+msgstr ""
+
+#: loansys-form.php:275
+msgid "Fax"
+msgstr ""
+
+#: loansys-form.php:278
+msgid "Email"
+msgstr ""
+
+#: loansys-form.php:281
+msgid "Date Moved To This Address"
+msgstr ""
+
+#: loansys-form.php:284
+msgid "Family Reference"
+msgstr ""
+
+#: loansys-form.php:286
+msgid "Name of Reference"
+msgstr ""
+
+#: loansys-form.php:289
+msgid "Last Name of Reference"
+msgstr ""
+
+#: loansys-form.php:292
+msgid "Phone of Reference"
+msgstr ""
+
+#: loansys-form.php:295
+msgid "Fax of Reference"
+msgstr ""
+
+#: loansys-form.php:77
+msgid "Relationship with Reference"
+msgstr ""
+
+#: loansys-form.php:335
+msgid "Other Informaton"
+msgstr ""
+
+#: loansys-form.php:336
+msgid "Warning"
+msgstr ""
+
+#: loansys-form.php:336
+msgid "If you declare bankruptcy or a consumir proposal before the end of the contract, you may be charged for fraud under the bankruptcy and insolvency law."
+msgstr ""
+
+#: loansys-form.php:339
+msgid "Are you planning to go bankrupt or make a consumer proposal in the next 6 months?"
+msgstr ""
+
+#: loansys-form.php:342
+msgid "Yes"
+msgstr ""
+
+#: loansys-form.php:343
+msgid "No"
+msgstr ""
+
+#: loansys-form.php:349
+msgid "Type of income?"
+msgstr ""
+
+#: loansys-form.php:350
+msgid "Employee"
+msgstr ""
+
+#: loansys-form.php:351
+msgid "Employment Insurance (ODSP)"
+msgstr ""
+
+#: loansys-form.php:352
+msgid "Self-employed worker"
+msgstr ""
+
+#: loansys-form.php:353
+msgid "Paternity leave"
+msgstr ""
+
+#: loansys-form.php:354
+msgid "Maternity leave"
+msgstr ""
+
+#: loansys-form.php:355
+msgid "Retired"
+msgstr ""
+
+#: loansys-form.php:356
+msgid "Wellfair"
+msgstr ""
+
+#: loansys-form.php:357
+msgid "Unemployed, no income"
+msgstr ""
+
+#: loansys-form.php:363
+msgid "Employer Company"
+msgstr ""
+
+#: loansys-form.php:366
+msgid "Employer Phone"
+msgstr ""
+
+#: loansys-form.php:369
+msgid "Phone Extension"
+msgstr ""
+
+#: loansys-form.php:372
+msgid "Employer Postal Code"
+msgstr ""
+
+#: loansys-form.php:375
+msgid "Supervisor"
+msgstr ""
+
+#: loansys-form.php:378
+msgid "Your Ocupation"
+msgstr ""
+
+#: loansys.php:151
+msgid "Pay frequency"
+msgstr ""
+
+#: loansys.php:152
+msgid "Every week"
+msgstr ""
+
+#: loansys.php:153
+msgid "Every two weeks"
+msgstr ""
+
+#: loansys.php:154
+msgid "Twice per month"
+msgstr ""
+
+#: loansys.php:155
+msgid "Once per month"
+msgstr ""
+
+#: loansys-form.php:386
+msgid "Day of Payment"
+msgstr ""
+
+#: loansys-form.php:389
+msgid "Hiring Date"
+msgstr ""
+
+#: loansys-form.php:389
+msgid "Your Income"
+msgstr ""
+
+#: loansys-form.php:341
+msgid "Choose"
+msgstr ""
+
+#: loansys-form.php:394
+msgid "Comments"
+msgstr ""
+
+#: loansys-form.php:398
+msgid "I'm confirming that all the informations I have provided is current and accurate and that I understand and accept the terms and conditions."
+msgstr ""
+
+#: loansys-form.php:407
+msgid "Send"
+msgstr ""
+
+#: loansys-form.php:468
+msgid "You already submited this form."
+msgstr ""

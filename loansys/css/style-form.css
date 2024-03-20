@@ -1,0 +1,47 @@
+.loan_amountrequested, .loan_personaldata{
+    margin-top: 30px;
+}
+input, select {
+    display: block;
+    min-width: 300px;
+    margin: 15px 0! important;
+    width: 100%;
+}
+.recaptcha-form{
+    margin: 14px auto -14px;
+    display: table;
+    text-align: center;
+}
+.just-submited{
+    font-size: 31px;
+    text-align: center;
+}
+.lang-item a img{
+    display: inline;
+}
+.loan-submit h3{
+    margin-top: 40px;
+}
+.loan-submit .warning-loan{
+    color: red;
+    margin-bottom: 20px;
+}
+.loan-submit input[type=checkbox]{
+    width: 26px! important;
+    display: inline-block;
+    height: 26px! important;
+    min-width: 26px;
+    margin-right: 10px! important;
+    position: relative;
+    top: 22px;
+}
+@media (min-widht: 767px){
+    .xdsoft_datetimepicker .xdsoft_datepicker {
+        width: 240px;
+    }
+}
+body .ui-datepicker {
+    width: 100%! important;
+    margin-left: -15px;
+    max-width: 320px;
+}

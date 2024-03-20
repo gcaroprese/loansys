@@ -1,0 +1,326 @@
+#wpcontent {
+    padding-left: 0px! important;
+}
+#ik-loansys-searchbox{
+    background: #2c2827;
+    padding: 15px 3%;
+    margin: 20px auto;
+    display: flex;
+    width: 90%;
+}
+#ik-loansys-searchbox .ik-search-input-width, .ik-loansys-popup-edit-list .ik-loansys-edit-info-entry{
+    width: 48%;
+    float: left;
+    margin: 8px 1%;
+}
+#ik-loansys-searchbox .ik-search-input-width span, #ik-loansys-searchbox .ik-search-input-shorter span{
+    color: #fff;
+}
+#ik-loansys-searchbox .ik-search-input-width span, #ik-loansys-searchbox .ik-search-input-shorter span, .ik-loansys-popup-edit-list .ik-loansys-edit-info-entry span{
+    padding: 2px;
+    position: relative;
+    top: -3px;
+    font-size: 14px;
+}
+#ik-loansys-searchbox .ik-search-input-width input, #ik-loansys-searchbox .ik-search-input-width select, #ik-loansys-searchbox .ik-search-input-shorter input, .ik-loansys-popup-edit-list .ik-loansys-edit-info-entry input, .ik-loansys-popup-edit-list .ik-loansys-edit-info-entry select, .ik-loansys-popup-edit-list .ik-loansys-edit-info-entry .select2-container {
+    width: 100%;
+    min-width: 155px;
+    display: block;
+}
+.ik-loansys-popup-edit-list textarea.ik-loansys-edit-info-entry {
+    width: 98%;
+    margin: 10px;
+    height: 150px;
+}
+#ik-loansys-searchbox .ik-search-input-shorter{
+    width: 23%;
+    float: left;
+    margin: 8px 1%! important;
+    color: #fff;
+    min-width: 155px;
+}
+#ik-loansys-searchbox .ik-loansys-search-submit {
+    min-width: 46%;
+    position: relative;
+    top: 17.5px;
+}
+#ik-loansys-searchbox input[type=submit], #ik-loansys-searchbox button {
+    text-align: center;
+    min-width: 155px;
+    float: left;
+    position: relative;
+    margin: 0 auto;
+    top: 10px;
+    left: 14px;
+}
+#ik-loansys-searchbox input[type=submit] {
+    top: 9.5px! important;
+    margin-left: 8px;
+}
+.ik-loansys-panel-name{ 
+    display: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 2px 12px;
+}
+#ik-loansys-admin-panel .panelvisible{
+    float: right;
+    cursor: pointer;
+}
+#ik-loansys-admin-panel .panelvisible:after {
+    right: 5px;
+    content: "\f142";
+    font: normal 25px/1 dashicons;
+    speak: never;
+    display: inline-block;
+    padding: 0 5px 0 0;
+    bottom: 5px;
+    position: relative;
+    vertical-align: bottom;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    color: #fff;
+}
+#ik-loansys-admin-panel .panelvisible.hiddenpanel {
+    float: right;
+    width: 100%;
+    text-align: right;
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+#ik-loansys-admin-panel .panelvisible.hiddenpanel:after {
+    content: "\f140";
+}
+#ik-loansys-application-list{
+    margin: 20px 2%;
+}
+#ik-loansys-application-list table thead{
+    background: #007cba;
+}
+#ik-loansys-admin-panel .ik-loansys-panel-list {
+    background: #ccc;
+    padding: 12px 4%;
+    height: 29px;
+    border-radius: 7px 7px 0 0;
+    margin: 0 2px;
+}
+#ik-loansys-application-list .ik-loansys-title h3 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 6px;
+}
+#ik-loansys-application-list .ik-loansys-title, #ik-loansys-application-list .ik-loansys-export-csv {
+    width: 50%;
+    float: left;
+}
+#ik-loansys-application-list .ik-loansys-export-csv {
+    text-align: right;
+}
+#ik-loansys-application-list table{
+    width: 100%;
+}
+#ik-loansys-application-list table thead th {
+    color: #fff;
+    padding: 12px 7px;
+    cursor: pointer;
+}
+#ik-loansys-application-list table thead th:first-child, #ik-loansys-application-list table tbody td:first-child, #ik-loansys-application-list table tfoot th:first-child{
+    width: 35px;
+    text-align: center;
+}
+#ik-loansys-application-list table tbody tr{
+    width: 100%;
+    background: #fff;
+}
+#ik-loansys-application-list table tbody tr:nth-child(2n+2) {
+    background: #ccc;
+}
+#ik-loansys-application-list table tbody tr td{
+    padding: 5px 7px;
+    text-align: center;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list{
+    position: fixed;
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    width: 90%;
+    display: none;
+    max-width: 1000px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 55%;
+    margin: 0 auto;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-title-popup{
+    background: #fff;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    padding: 11px;
+    border-radius: 11px 11px 0 0;
+    width: calc(100% - 21px);
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation{
+    background: #666;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul{
+    height: 35px;
+    margin: 0 auto;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li {
+    float: left;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+    padding: 7px 6px;
+    cursor: pointer;
+    font-size: 13.5px;
+    border: 1px solid #f1f1f1;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li.active{
+    background: #333! important;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-edit.active{
+    display: flow-root! important;
+}
+#ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-edit {
+    margin: 20px;
+    background: #fff;
+    display: none;
+    padding: 20px;
+    border-radius: 12px;
+}
+.ik-loansys-datatable{
+    display:  table;
+    width:auto;
+    background-color:#eee;
+    border:1px solid  #666666;
+    border-spacing:5px;
+}
+.ik-loansys-datarow{
+   display:table-row;
+   width:auto;
+}
+.ik-loansys-datacell {
+    float: left;
+    display: table-column;
+    padding: 5px 14px;
+    max-width: 12%;
+    display: inline-table;
+    background-color: #ccc;
+}
+.ik-loansys-popup-edit-list .ik-loansys-panel-list-save-buttons{
+    float: right;
+    padding: 0px 20px 20px;
+}
+.ik-loansys-popup-edit-list .ik-loansys-panel-list-save-buttons button{
+    font-size: 18px;
+    min-width: 140px;
+}
+#ik-loansys-admin-panel .ik-loansys-closepopup{
+    position: absolute;
+    float: right;
+    right: 18px;
+    cursor: pointer;
+}
+#ik-loansys-admin-panel .ik-loansys-closepopup:before{
+    font-size: 42px;
+}
+#ik-loansys-admin-panel a.ik-loansys-ibv-link span {
+    text-decoration: none;
+}
+#ik-loansys-admin-panel .ik-loansys-edit-list-id, #ik-loansys-admin-panel .ik-loansys-delete-list-id, #ik-loansys-admin-panel a.ik-loansys-ibv-link span{
+    font-size: 27px;
+    position: relative;
+    top: -4px;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+#ik-loansys-admin-panel .ik-loansys-delete-list-id{
+    color: #d11a2a;
+}
+.ik-loansys-ibv-link{
+    display: block;
+}
+#ik-loansys-admin-panel .ik-loansys-nothing-to-show{
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.filter-by-request_datetime-ASC #ik_loansys_request_datetime:after, .filter-by-firstname-ASC #ik_loansys_firstname:after, .filter-by-lastname-ASC #ik_loansys_lastname:after, .filter-by-phone-ASC #ik_loansys_phone:after, .filter-by-mobilephone-ASC #ik_loansys_mobilephone:after, .filter-by-codepostal-ASC #ik_loansys_codepostal:after, .filter-by-amount_requested-ASC #ik_loansys_amount_requested:after, .filter-by-client_associated-ASC #ik_loansys_client_associated:after, .filter-by-modification_datetime-ASC #ik_loansys_modification_datetime:after{
+	content: "\f142";
+    font: normal 25px/1 dashicons;
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+.filter-by-request_datetime-DESC #ik_loansys_request_datetime:after, .filter-by-firstname-DESC #ik_loansys_firstname:after, .filter-by-lastname-DESC #ik_loansys_lastname:after, .filter-by-phone-DESC #ik_loansys_phone:after, .filter-by-mobilephone-DESC #ik_loansys_mobilephone:after, .filter-by-codepostal-DESC #ik_loansys_codepostal:after, .filter-by-amount_requested-DESC #ik_loansys_amount_requested:after, .filter-by-client_associated-DESC #ik_loansys_client_associated:after, .filter-by-modification_datetime-DESC #ik_loansys_modification_datetime:after{
+	content: "\f140";
+    font: normal 25px/1 dashicons;
+    position: relative;
+    top: 7px;
+    left: 3px;
+}
+.ik-loansys-popup-changes-fields .select2-container{ z-index: 9999;}
+.select2-drop{ z-index: 9999999!important;}
+@media (min-width: 1160px){
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation {
+        display: flex;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="1"] {
+        width: 128px;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="2"] {
+        width: 151px;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="3"], #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="4"] {
+        width: 79px;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="5"] {
+        width: 135px;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="6"] {
+        width: 167px;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li[tab="7"] {
+        width: 161px;
+    }
+}
+@media (min-width: 767px){
+    #ik-loansys-admin-panel .panelvisible:after {
+        bottom: -40px! important;
+    }
+    #ik-loansys-admin-panel .panelvisible.hiddenpanel:after {
+        bottom: 4px! important;
+    }
+}
+@media (max-width: 717px) and (min-width: 360px){
+    #ik-loansys-admin-panel #ik_loansys_searchdata_form .panelvisible{
+        position: relative;
+        top: 50px;
+    }
+}
+@media (max-width: 360px){
+    #ik-loansys-searchbox .ik-search-input-width,#ik-loansys-searchbox .ik-search-input-shorter{
+        width: 98%! important;   
+    }
+}
+@media (max-width: 1160px){
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul {
+        height: auto! important;
+        margin: 0 auto;
+        display: flex;
+    }
+    #ik-loansys-application-list .ik-loansys-popup-edit-list .ik-loansys-tab-navigation ul li {
+        font-size: 12.5px;
+    }
+}
